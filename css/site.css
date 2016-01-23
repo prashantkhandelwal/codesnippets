@@ -23,15 +23,19 @@ body {
 
 .logo {
     background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+}
+
+.highlight pre{
+    background-color: transparent;
 }
 
 .apptitle {
     vertical-align: central;
     position: absolute;
-    margin-left: 32px;
-    margin-top: -23px;
+    margin-left: 42px;
+    margin-top: -26px;
 }
 
 .form-horizontal {
