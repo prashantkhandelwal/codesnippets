@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div>
+    {% for post in paginator.posts %}
+    <div class="heading">
+        <h2>
+            {% if post.categories contains 'dotnet' %}
+            <span><i class="devicon-dot-net-plain colored"></i></span>
+            {% elsif post.categories contains 'csharp' %}
+            <span><i class="devicon-csharp-plain-wordmark colored"></i></span>
+            {% elsif post.categories contains 'jquery' %}
+            <span><i class="devicon-jquery-plain-wordmark colored"></i></span>
+            {% elsif post.categories contains 'javascript' %}
+            <span><i class="devicon-javascript-plain colored"></i></span>
+            {% elsif post.categories contains 'shell'%}
+            <span><i class="devicon-linux-plain colored"></i></span>
+            {% elsif post.categories contains 'git' %}
+            <span><i class="devicon-git-plain colored"></i></span>
+            {% elsif post.categories contains 'html' %}
+            <span><i class="devicon-html5-plain colored"></i></span>
+            {% elsif post.catrgories contains 'css'%}
+            <span><i class="devicon-css3-plain colored"></i></span>
+            {% elsif post.categories contains 'cpp' %}
+            <span><i class="devicon-cplusplus-plain-wordmark colored"></i></span>
+            {% endif %}
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+    </div>
+    <div class="summary">
+        <p>{{post.description}}</p>
+    </div>
+    {% endfor %}
+</div>
+
+<ul class="pager">
+    {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <li class="previous"><a href="/"><span aria-hidden="true">&larr;</span> Older</a></li>
+    {% else %}
+    <li class="previous"><a href="/page/{{ paginator.previous_page }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+    {% endif %}
+    {% else %}
+    <li class="previous disabled"><span aria-hidden="true">&larr; Older</span></li>
+    {% endif %}
+
+    <!--<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>-->
+    {% if paginator.next_page %}
+    <li class="next"><a href="/page/{{ paginator.next_page }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+    {% else %}
+    <li class="next"><span aria-hidden="true">&rarr; Newer</span></li>
+    {% endif %}
+</ul>
