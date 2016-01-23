@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Remove duplicate from ArrayList"
-description: "FFunction to remove duplicate values from an ArrayList"
+description: "Function to remove duplicate values from an ArrayList"
 date:   2016-01-23 21:50:08 +0530
 categories: csharp
 ---
