@@ -8,6 +8,6 @@ categories: jquery
 
 Below code is valid for display:[none|block] but it will ignore visible:[true|false] 
 
-```csharp
+```javascript
 $(element).is(":visible"); 
 ```
