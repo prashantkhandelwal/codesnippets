@@ -6,12 +6,7 @@ date:   2016-01-28 16:35:00 +0530
 categories: javascript
 ---
 
-Code to convert the string to pascal casing. 
-
-E.g.
----
-BUILDING: Building
----
+Code to convert the string to pascal casing. E.g. **BUILDING** get converted to **Building**
 
 ```javascript
 var ToPascalCase = function (str) {
