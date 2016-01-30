@@ -8,6 +8,6 @@ categories: shell
 
 Change permission to 755 for directories, 644 for files
 
-```shell
+```sh
 sudo chmod -R 777 <file/directory name/path>
 ```
