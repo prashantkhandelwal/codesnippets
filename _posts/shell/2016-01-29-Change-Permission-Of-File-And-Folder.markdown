@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Change Permisson Of File And Folder"
+title:  "Change Permission Of File And Folder"
 description: "Command to change the permission of file and folder in Linux"
 date:   2016-01-29 22:21:00 +0530
 categories: shell
