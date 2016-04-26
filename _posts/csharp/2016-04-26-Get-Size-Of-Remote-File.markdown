@@ -19,3 +19,7 @@ private static string GetFileSize(Uri uriPath)
     }
 }
 ```
+
+Usage:
+Console.WriteLine(GetFileSize(new Uri("http://xyz.net/img/17.jpg")));
+```csharp
