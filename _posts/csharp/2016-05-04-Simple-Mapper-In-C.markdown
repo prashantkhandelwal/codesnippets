@@ -6,7 +6,7 @@ date:   2016-01-23 14:10:00 +0530
 categories: csharp
 ---
 
-From: http://weblogs.asp.net/imranbaloch/simple-mapper-C
+From: [http://weblogs.asp.net/imranbaloch/simple-mapper-C](http://weblogs.asp.net/imranbaloch/simple-mapper-C)
 
 ```csharp
 public static class Mapper
