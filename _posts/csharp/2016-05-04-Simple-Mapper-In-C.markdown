@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple Mapper In C#"
 description: "A simple mapper in C# without any explicit mapping"
-date:   2016-01-23 14:10:00 +0530
+date:   2016-05-04 14:10:00 +0530
 categories: csharp
 ---
 
